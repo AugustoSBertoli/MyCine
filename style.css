@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Diplomata&display=swap');
+@import url("./Cadastro/login.css");
+@import url("./Home/home.css");
+@import url("./Detalhes/detalhes.css");
+
+:root {
+    --cor-fundo: #0d0905;
+    --cor-principal: #8b1a1a;
+    --cor-texto: #f0e8d0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Diplomata', cursive;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(240, 232, 208, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.75rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
