@@ -80,7 +80,7 @@
     background: var(--cor-principal);
     border: none;
     padding: 7px 16px;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 0.85rem;
     letter-spacing: 2px;
     color: var(--cor-texto);
@@ -133,7 +133,7 @@
 
 /* ── TÍTULO DA SEÇÃO ── */
 .page-home .section-title {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.3rem;
     letter-spacing: 5px;
     color: rgba(240, 232, 208, 0.5);
@@ -188,6 +188,7 @@
 
 .page-home .card-title {
     font-size: 0.78rem;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     white-space: nowrap;
     overflow: hidden;

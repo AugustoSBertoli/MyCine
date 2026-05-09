@@ -167,6 +167,7 @@
 /* ── SINOPSE ── */
 .page-detalhes .overview {
     font-size: 0.9rem;
+    font-family: 'Oswald', sans-serif;
     line-height: 1.8;
     color: var(--cor-texto);
     max-width: 680px;
@@ -375,6 +376,20 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--cor-texto);
+}
+
+.page-detalhes .overview,
+.page-detalhes #tagline,
+.page-detalhes .ator-nome,
+.page-detalhes .ator-personagem,
+.page-detalhes .similar-titulo,
+.page-detalhes .sem-provider,
+.page-detalhes .chip,
+.page-detalhes .genero-tag,
+.page-detalhes .acoes button,
+.page-detalhes .btn-voltar,
+.page-detalhes .provider span {
+    font-family: 'Oswald', sans-serif;
 }
 
 /* ── FOOTER ── */
