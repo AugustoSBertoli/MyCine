@@ -2,6 +2,8 @@
 @import url("./Cadastro/login.css");
 @import url("./Home/home.css");
 @import url("./Detalhes/detalhes.css");
+@import url("./Perfil/perfil.css");
+@import url("./Lista/lista.css");
 
 :root {
     --cor-fundo: #0d0905;

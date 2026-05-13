@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>MyCine - Perfil</title>
+</head>
+<body class="page-perfil">
+
+    <header>
+        <div class="logo">My<span>Cine</span></div>
+        <nav>
+            <a href="../Home/home.html">Descobrir</a>
+            <a href="../Perfil/perfil.html" class="active">Perfil</a>
+            <a href="../Perfil/perfil.html#listas">Minhas Listas</a>
+        </nav>
+        <button class="btn-sair" id="btn-sair">Sair</button>
+    </header>
+
+    <main>
+
+        <!-- hero do perfil -->
+        <div class="perfil-hero">
+            <div class="avatar-grande" id="avatar-grande">🎬</div>
+            <div class="perfil-info">
+                <h1 id="perfil-nome">Usuário</h1>
+                <p class="perfil-membro">Membro do MyCine</p>
+                <div class="perfil-stats">
+                    <div class="stat">
+                        <span class="stat-num" id="stat-assistidos">0</span>
+                        <span class="stat-label">Assistidos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" id="stat-favoritos">0</span>
+                        <span class="stat-label">Favoritos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num" id="stat-listas">0</span>
+                        <span class="stat-label">Listas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- abas -->
+        <div class="abas">
+            <button class="aba active" data-aba="assistidos">Assistidos</button>
+            <button class="aba" data-aba="favoritos">Favoritos</button>
+            <button class="aba" data-aba="listas">Minhas Listas</button>
+        </div>
+
+        <!-- conteúdo das abas -->
+        <div class="aba-conteudo" id="aba-conteudo">
+
+            <!-- assistidos -->
+            <div class="aba-panel active" id="panel-assistidos">
+                <div class="movie-grid" id="grid-assistidos"></div>
+                <p class="vazio" id="vazio-assistidos">Nenhum filme assistido ainda.</p>
+            </div>
+
+            <!-- favoritos -->
+            <div class="aba-panel" id="panel-favoritos">
+                <div class="movie-grid" id="grid-favoritos"></div>
+                <p class="vazio" id="vazio-favoritos">Nenhum favorito ainda.</p>
+            </div>
+
+            <!-- listas -->
+            <div class="aba-panel" id="panel-listas">
+                <div class="listas-header">
+                    <button class="btn-nova-lista" id="btn-nova-lista">+ Nova Lista</button>
+                </div>
+                <div class="listas-grid" id="grid-listas"></div>
+                <p class="vazio" id="vazio-listas">Nenhuma lista criada ainda.</p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MyCine. Desenvolvido por Augusto D.S.Bertoli.</p>
+    </footer>
+
+    <script src="perfil.js"></script>
+</body>
+</html>

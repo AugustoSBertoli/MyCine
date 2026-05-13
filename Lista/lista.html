@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>MyCine - Lista</title>
+</head>
+<body class="page-lista">
+
+    <header>
+        <div class="logo">My<span>Cine</span></div>
+        <nav>
+            <a href="../Home/home.html">Descobrir</a>
+            <a href="../Perfil/perfil.html">Perfil</a>
+            <a href="../Perfil/perfil.html#listas" class="active">Minhas Listas</a>
+        </nav>
+        <button class="btn-voltar" onclick="history.back()">← Voltar</button>
+    </header>
+
+    <main>
+
+        <div class="lista-hero">
+            <div class="lista-icone" id="lista-icone">🎬</div>
+            <div class="lista-hero-info">
+                <h1 id="lista-nome">Minha Lista</h1>
+                <p class="lista-qtd" id="lista-qtd">0 filmes</p>
+                <div class="lista-acoes">
+                    <button class="btn-renomear" id="btn-renomear">✏️ Renomear</button>
+                    <button class="btn-excluir" id="btn-excluir">🗑️ Excluir lista</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="movie-grid" id="movie-grid"></div>
+        <p class="vazio" id="vazio">Nenhum filme nesta lista ainda.</p>
+
+    </main>
+
+    <footer>
+        <p>© 2026 MyCine. Desenvolvido por Augusto D.S.Bertoli.</p>
+    </footer>
+
+    <script src="lista.js"></script>
+</body>
+</html>
